@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSceneSkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1655a5056e1" ></w:Config>
+	<e:Image width="1080" height="1920" x="0" y="0" source="ShopMap_png"/>
+	<e:Image id="Btn_Artsian1" width="246" height="191" x="35" y="1620" source="Common1_json.Artsian1"/>
+	<e:Image id="Btn_Artsian2" width="220" height="210" x="321" y="1600" source="Common1_json.Artsian2" anchorOffsetX="0"/>
+	<e:Image id="Btn_Artsian3" width="185" height="192" x="606" y="1611" source="Common1_json.Artsian3"/>
+	<e:Group id="Group_ShopWindow" width="950" height="108" x="58" y="1302">
+		<e:Image id="Btn_ShopWin1" width="108" height="108" x="328" y="4" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin2" width="108" height="108" x="338" y="14" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin3" width="108" height="108" x="348" y="24" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin4" width="108" height="108" x="358" y="34" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin5" width="108" height="108" x="368" y="44" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin6" width="108" height="108" x="378" y="54" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin7" width="108" height="108" x="388" y="64" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:Image id="Btn_ShopWin8" width="108" height="108" x="398" y="74" scaleX="1" scaleY="1" source="Common1_json.ShopWindow"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Image width="256" height="512" x="250" y="648" source="Employee1_png"/>
+	<e:Image id="Btn_Artsian4" width="225" height="192" x="834" y="1611" source="Common1_json.Artsian4"/>
+</e:Skin>

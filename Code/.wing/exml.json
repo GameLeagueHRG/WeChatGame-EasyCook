@@ -1,0 +1,30 @@
+{
+  "1655a4ea64a": {
+    "path": "..\\resource\\scene\\LoadingScene.ts",
+    "class": "LoadingScene",
+    "parentPath": ""
+  },
+  "1655a4f841c": {
+    "path": "..\\resource\\scene\\LoadingScene.ts",
+    "class": "LoadingScene",
+    "parentPath": ""
+  },
+  "1655a50183a": {
+    "path": "..\\resource\\eui_skins\\MainScene.ts",
+    "class": "MainScene",
+    "parentPath": ""
+  },
+  "1655a5056e1": {
+    "path": "..\\resource\\eui_skins\\ShopScene.ts",
+    "class": "ShopScene",
+    "parentPath": ""
+  },
+  "1655a54bf3b": {
+    "path": "..\\resource\\eui_skins\\LoadingScene.ts",
+    "class": "LoadingScene",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  }
+}
