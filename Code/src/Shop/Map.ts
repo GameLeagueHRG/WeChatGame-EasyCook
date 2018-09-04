@@ -74,6 +74,10 @@ class Map{
         return egret.Point.create(iRow,iCol)
     }
 
+    public GetGridByRowCol(rowCol:egret.Point):number{
+        return rowCol.x * Math.floor(this._size.width/CommonDefine.SHOP_MAP_GIRD_SIZE) + rowCol.y
+    }
+
     public IsWalkableByGrid(iGrid:number):boolean{
 
         if(this._arOccupiedRect == null || this._arOccupiedRect.length <= 0 || iGrid < 0)
@@ -127,6 +131,14 @@ class Map{
     }
 
     public IsValidGrid(iGrid:number):boolean{
-        return ( iGrid < 1 || iGrid > this._iGridCount ) ? false : true 
+        return ( iGrid == null || iGrid < 1 || iGrid > this._iGridCount ) ? false : true 
+    }
+
+    public GetMapRow():number{
+        return Math.floor(this._size.height/CommonDefine.SHOP_MAP_GIRD_SIZE)
+    }
+
+    public GetMapCol():number{
+        return Math.floor(this._size.width/CommonDefine.SHOP_MAP_GIRD_SIZE)
     }
 }
